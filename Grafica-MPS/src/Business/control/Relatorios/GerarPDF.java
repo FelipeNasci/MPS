@@ -1,15 +1,18 @@
 package Business.control.Relatorios;
 
-public class GerarPDF implements Interface_Relatorio {
+public class GerarPDF extends GeradorDeRelatorios {
 
     @Override
-    public void relatorioProdAdquiridos() {
-        System.out.println("Gerando relatorios em PDF de Produtos Adquiridos");
+    public void relatorioProdAdquiridos(String dados) {
+
+        System.out.println("Estruturando os dados: " + dados + "em PDF");
+
     }
 
     @Override
-    public void relatorioVendas() {
-        System.out.println("Gerando relatorios em PDF de Vendas");
+    public void relatorioVendas(String dados) {
+
+        System.out.println("Estruturando os dados: " + dados + "em PDF");
     }
 
 }

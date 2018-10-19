@@ -1,14 +1,19 @@
 package Business.control.Relatorios;
 
-public class GerarHTML implements Interface_Relatorio {
+public class GerarHTML extends GeradorDeRelatorios {
 
     @Override
-    public void relatorioProdAdquiridos() {
-        System.out.println("Gerando relatorios de Produtos Adquiridos em HTML ");
+    public void relatorioProdAdquiridos(String dados) {
+        
+        System.out.println("Estruturando os dados: " + dados + "em HTML");
+        
     }
 
     @Override
-    public void relatorioVendas() {
-        System.out.println("Gerando relatorios de Vendas em HTML ");
+    public void relatorioVendas(String dados) {
+        
+        System.out.println("Estruturando os dados: " + dados + "em HTML");
+        
     }
+    
 }

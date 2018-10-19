@@ -13,22 +13,22 @@ public class Arquivos implements Interface_Dados{
     
     @Override
     public void adicionar(String arquivo) {
-        System.out.println("Adicionando " + arquivo + "em Banco de Arquivos");
+        System.out.println("Adicionando " + arquivo + "em Banco de Arquivos TXT");
     }
 
     @Override
     public void remover(String arquivo) {
-        System.out.println("Removendo " + arquivo + "em Banco de Arquivos");
+        System.out.println("Removendo " + arquivo + "em Banco de Arquivos TXT");
     }
 
     @Override
     public void consultar(String arquivo) {
-        System.out.println("Consultando" + arquivo + "em Banco de Arquivos");
+        System.out.println("Consultando" + arquivo + "em Banco de Arquivos TXT");
     }
 
     @Override
     public void ler(String arquivo) {
-        System.out.println("Lendo " + arquivo + "em Banco de Arquivos");
+        System.out.println("Lendo " + arquivo + "em Banco de Arquivos TXT");
     }
     
 }

@@ -1,14 +1,17 @@
 package Business.control.Relatorios;
 
-public class GerarTXT implements Interface_Relatorio {
+public class GerarTXT extends GeradorDeRelatorios {
 
     @Override
-    public void relatorioProdAdquiridos() {
-        System.out.println("Gerando relatorios de Produtos Adquiridos em TXT ");
+    public void relatorioProdAdquiridos(String dados) {
+
+        System.out.println("Estruturando os dados: " + dados + "em TXT");
     }
 
     @Override
-    public void relatorioVendas() {
-        System.out.println("Gerando relatorios de Vendas em TXT ");
+    public void relatorioVendas(String dados) {
+
+        System.out.println("Estruturando os dados: " + dados + "em TXT");
     }
+
 }
