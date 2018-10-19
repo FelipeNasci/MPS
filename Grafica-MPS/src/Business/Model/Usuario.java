@@ -12,7 +12,6 @@ public class Usuario {
         this.senha = senha;
         
         data_nascimento = new Data( dia,  mes,  ano);
-        
     }
 
     @Override
