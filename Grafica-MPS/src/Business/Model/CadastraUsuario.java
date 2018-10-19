@@ -16,7 +16,6 @@ public class CadastraUsuario {
         usuario = new Usuario(nome, senha, Integer.parseInt(str[0]), Integer.parseInt(str[1]), Integer.parseInt(str[2]));
         mapa.add(usuario);
         dados.adicionar(usuario.login + "\t" + usuario.senha);
-        
     }
     
 }
