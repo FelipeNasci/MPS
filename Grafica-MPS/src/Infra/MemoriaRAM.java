@@ -5,7 +5,7 @@
  */
 package Infra;
 
-public class MemoriaRAM implements Interface_Dados {
+public class MemoriaRAM implements CRUD {
 
     private MemoriaRAM() {
     }

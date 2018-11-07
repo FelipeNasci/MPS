@@ -1,10 +1,7 @@
 package Business.control;
 
-import Business.Model.Mapa;
-import Business.Model.Usuario;
-
 public class UserControl {
-    
+    /*
     Rules rule = new Rules();
     
     String expLogin = "[a-z]{1,15}";
@@ -59,5 +56,5 @@ public class UserControl {
             
         });
     }
-    
+    */
 }

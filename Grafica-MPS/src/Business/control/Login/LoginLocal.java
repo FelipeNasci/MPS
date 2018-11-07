@@ -3,14 +3,8 @@ package Business.control.Login;
 public class LoginLocal implements Interface_Login{
 
     @Override
-    public void login() {
-        System.out.println("Logando localmente");
+    public void login(String usuario, String senha) {
+        System.out.println("Você realizou Login Local");
     }
-
-    @Override
-    public void senha() {
-        System.out.println("Senha de LoginLocal");
-    }
-    
     
 }

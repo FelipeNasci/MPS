@@ -1,24 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Business.control.Login;
 
-/**
- *
- * @author aluno
- */
 public class LoginFacebook implements Interface_Login {
 
     @Override
-    public void login() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void login(String usuario, String senha) {
+        System.out.println("Você está logando com o Facebook");
     }
 
-    @Override
-    public void senha() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
 }

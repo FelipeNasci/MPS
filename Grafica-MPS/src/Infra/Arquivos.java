@@ -1,6 +1,6 @@
 
 package Infra;
-public class Arquivos implements Interface_Dados{
+public class Arquivos implements CRUD{
 
     private Arquivos(){}
     public static Arquivos arquivo = null;

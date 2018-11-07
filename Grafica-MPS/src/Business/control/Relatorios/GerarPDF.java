@@ -1,6 +1,6 @@
 package Business.control.Relatorios;
 
-public class GerarPDF extends GeradorDeRelatorios {
+public class GerarPDF extends TemplateRelatorios {
 
     @Override
     public void relatorioProdAdquiridos(String dados) {

@@ -1,6 +1,6 @@
 package Business.control.Relatorios;
 
-public abstract class GeradorDeRelatorios {
+public abstract class TemplateRelatorios {
 
     /*
     * Template Method

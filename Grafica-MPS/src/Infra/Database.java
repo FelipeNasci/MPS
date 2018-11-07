@@ -1,6 +1,6 @@
 package Infra;
 
-public class Database implements Interface_Dados {
+public class Database implements CRUD {
 
     //Aplicando Singleton
     private Database(){}
