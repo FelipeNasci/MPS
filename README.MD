@@ -9,7 +9,7 @@
 ## Factory Method - Para gerar conxões com diferentes tipos de banco
 ## Fabrica - Retorna instância de persistências em memória RAM, Arquivos e Bancos de dados
 
-### Saídas
+
 
 ```java
 
@@ -65,4 +65,58 @@ O status da compra utiliza o padrão Command para avançar os estados, obetendo 
 
 ```java
 	mementoCompra.avancar();
+```
+### Saídas
+
+02 ou mais maneiras de login
+```
+Você realizou Login Local
+Você está logando com o Facebook
+```
+
+CRUD em mais de um tipo de persistência
+```
+ Adicionando Usuario1	Senha do Usuario 1 armazenado em RAM
+Adicionando 84	Panfleto	Papel Couchê 90g	true	false	0.018em Banco de Arquivos TXT
+```
+Comando de pesquisa de usuário
+```
+Pesquisando por Nome = Usuario1
+```
+** Padrão Memento **
+
+Início da compra
+```
+Compra adicioada
+Compra adicioada
+Status da compra: Adicionando ao Carrinho
+```
+Avançando na compra
+```
+Status da compra: Pagamento
+```
+Avançando na compra
+```
+Concluindo pagamento
+Status da compra: Compra Concluída
+```
+
+Retornando para estado anterior (Pagamento)
+```
+Status da compra: Pagamento
+```
+
+Retornando para estado anterior (Carrinho de compra)
+```
+Status da compra: Adicionando ao Carrinho
+```
+
+Status da compra: Adicionando ao Carrinho
+```
+Retornando para estado anterior (Carrinho de compra)
+```
+
+Status da compra: Adicionando ao Carrinho
+```
+Retornando para estado anterior (Carrinho de compra)
 ```
