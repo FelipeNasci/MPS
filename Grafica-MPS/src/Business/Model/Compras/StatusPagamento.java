@@ -1,5 +1,7 @@
 package Business.Model.Compras;
 
+import Business.Model.Compras.Compras;
+
 public class StatusPagamento implements CommandStatusCompra {
 
     @Override

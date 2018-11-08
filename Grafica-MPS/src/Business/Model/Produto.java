@@ -1,4 +1,4 @@
-package Business.Model.Produtos;
+package Business.Model;
 
 import Business.Model.Entidade;
 

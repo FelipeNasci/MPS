@@ -1,8 +1,7 @@
-package Business.control;
+package Business.control.GerenciaProduto;
 
 import Business.Model.Mapa;
-import Business.Model.Produtos.Produto;
-import Business.Model.Usuarios.Usuario;
+import Business.Model.Produto;
 import Infra.CRUD;
 import Infra.FabricaPersistencia;
 import java.util.Random;

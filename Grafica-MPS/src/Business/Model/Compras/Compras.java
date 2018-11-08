@@ -1,6 +1,6 @@
 package Business.Model.Compras;
 
-import Business.Model.Produtos.Produto;
+import Business.Model.Produto;
 import java.util.ArrayList;
 
 public class Compras {

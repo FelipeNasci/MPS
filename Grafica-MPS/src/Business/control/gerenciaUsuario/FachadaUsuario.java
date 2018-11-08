@@ -1,14 +1,14 @@
-package Business.control;
+package Business.control.gerenciaUsuario;
 
 import Business.Model.Mapa;
-import Business.Model.Usuarios.Usuario;
-import Business.control.Command.Command;
-import Business.control.Command.Pesquisa;
-import Business.control.Command.PesquisaNome;
+import Business.Model.Usuario;
+import Business.control.commandPesquisa.Command;
+import Business.control.commandPesquisa.Pesquisa;
+import Business.control.commandPesquisa.PesquisaNome;
 import Infra.CRUD;
 import Infra.FabricaPersistencia;
 
-public class GerenciaUsuario {
+public class FachadaUsuario {
     
     Mapa mapa = new Mapa();
     

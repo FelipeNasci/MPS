@@ -1,4 +1,4 @@
-package Business.control.Command;
+package Business.control.commandPesquisa;
 
 public class PesquisaMaterial implements Command{
 
