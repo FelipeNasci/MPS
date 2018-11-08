@@ -120,3 +120,4 @@ Status da compra: Adicionando ao Carrinho
 ```
 Retornando para estado anterior (Carrinho de compra)
 ```
+OBS: Para evitar o retorno de "null", ao detectar que o memento é o primeiro adicionado na pilha, o mesmo é retornado sempre, afim de evitar futuros problemas.
